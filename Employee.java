@@ -16,8 +16,9 @@ public class Employee {
         System.out.println("Employe  ID: " +id);
         System.out.println("Employee Name: " +name );
         System.out.println("Salary :$ " +salary);
-        System.out.println("Date Of Join:$ " +DOJ);
-        System.out.println("Dapartment :$ " +department);
+        System.out.println("Date Of Join: " +DOJ);
+        System.out.println("Dapartment : " +department);
+    }
     public static void main(String[] args) {
         Employee emp1 = new Employee("Xyz", 101, 5000.0,"05-10-2004","Cloud Computing");
         emp1.displayInfo();
